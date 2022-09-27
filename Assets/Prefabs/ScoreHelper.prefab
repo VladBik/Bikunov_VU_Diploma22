@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4526225944691051773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4526225944691051770}
+  - component: {fileID: 4526225944691051771}
+  - component: {fileID: 4526225944691051768}
+  m_Layer: 0
+  m_Name: ScoreHelper
+  m_TagString: ScoreHelper
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4526225944691051770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4526225944691051773}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1621.1128, y: 513.9186, z: 5.238882}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4526225944691051771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4526225944691051773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab2b92eff1ea6043aa729d35bf4eaec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorecolorsText: {fileID: 0}
+  scoresecretcolorsText: {fileID: 0}
+  herospheresText: {fileID: 0}
+  herospheresRareText: {fileID: 0}
+  _commonheronumberText: {fileID: 0}
+  _RareheronumberText: {fileID: 0}
+  _rareheronumberText: {fileID: 0}
+  _epicheronumberText: {fileID: 0}
+  _legendheronumberText: {fileID: 0}
+  scorecolors: 4
+  scoresecretcolors: 0
+  herospheres: 3
+  herospheresRare: 0
+  herospheresEpic: 0
+  globalscore: 0
+  _commonheronumber: 0
+  _rareheronumber: 0
+  _epicheronumber: 0
+  _legendheronumber: 0
+  ColorsLost: {fileID: 0}
+  SecretColorsLost: {fileID: 0}
+  SpheresLost: {fileID: 0}
+  ColorPoints1: {fileID: 0}
+  ColorPoints2: {fileID: 0}
+  ColorPoints3: {fileID: 0}
+  ColorPoints4: {fileID: 0}
+  SpherePoints1: {fileID: 0}
+  SpherePoints2: {fileID: 0}
+  SpherePoints3: {fileID: 0}
+  CommonHeroOrb1: {fileID: 0}
+  CommonHeroOrb2: {fileID: 0}
+  CommonHeroOrb3: {fileID: 0}
+  CommonHeroOrb4: {fileID: 0}
+  CommonSphere1: {fileID: 0}
+  CommonSphere2: {fileID: 0}
+  CommonSphere3: {fileID: 0}
+  CommonSphere4: {fileID: 0}
+  RareSphere1: {fileID: 0}
+  RareSphere2: {fileID: 0}
+  RareSphere3: {fileID: 0}
+  EpicSphere1: {fileID: 0}
+  EpicSphere2: {fileID: 0}
+  RareHeroOrb1: {fileID: 0}
+  RareHeroOrb2: {fileID: 0}
+  _commonHeroCard1: {fileID: 0}
+  _commonHeroCard2: {fileID: 0}
+  _commonHeroCard3: {fileID: 0}
+  _commonHeroCard4: {fileID: 0}
+  _rareHeroCard1: {fileID: 0}
+  _rareHeroCard2: {fileID: 0}
+  _rareHeroCard3: {fileID: 0}
+  _epicHeroCard1: {fileID: 0}
+  BattleButtonCommon1: {fileID: 0}
+  BattleButtonRare1: {fileID: 0}
+  BattleButtonEpic1: {fileID: 0}
+  Light1: {fileID: 0}
+  Light2: {fileID: 0}
+  Light3: {fileID: 0}
+  Light4: {fileID: 0}
+--- !u!114 &4526225944691051768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4526225944691051773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7804c522061bd4c558b5008952406407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  model:
+    virtualCamera: {fileID: 0}
+    player: {fileID: 0}
+    spawnPoint: {fileID: 0}
+    jumpModifier: 0.9
+    jumpDeceleration: 0

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - TutorialRequirement
+  - ExitLevel
+  - Enemy
+  - ShowUnseen
+  - ColorPoint
+  - GameHelper
+  - ScoreHelper
+  - HeroSphere
+  - Garlic
+  - BulletGarlic
+  - Exitlvl2
+  - UpTrap
+  - ColorCauldron
+  - CommonHero
+  - VasyaHero
+  - TriggerCards
+  - RareHero
+  - EpicHero
+  - CommonHero1
+  - Ground
+  - Trig1
+  - SpikesTrap1
+  - Sword
+  - SpiderClaw1
+  - SmallRock1
+  - LesserRat
+  - ExitLvlWarrior1
+  - SilverKey
+  - GreenGiant
+  - HeroSphereRare
+  - Medicine
+  - Character
+  - GarlicTutor
+  - ControlTut1
+  - Trig2
+  - EnemyWeak
+  - EnemySword
+  - HeroWeak
+  - EnemyWeak2
+  - HeroWeak2
+  - CommonHero3
+  - CommonHero2
+  - RareHero2
+  - Interactable
+  - NotAttackable
+  - Breakable
+  - RareSword
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - 
+  - 
+  - Sword
+  - 
+  - EnemyAttack
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Unknown Layer
+    uniqueID: 2630975735
+    locked: 0

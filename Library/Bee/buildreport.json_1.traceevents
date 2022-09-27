@@ -1,0 +1,1083 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1664309500922594, "dur": 80715615, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309500925178, "dur": 250432, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309501175905, "dur": 2789235, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309503965206, "dur": 7182895, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309511148105, "dur": 70479996, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309581628141, "dur": 10065, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309808680058, "dur": 17579049, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309808680450, "dur": 17002, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309808697458, "dur": 17550202, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309826247665, "dur": 11440, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309826259830, "dur": 94, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1664309810272936, "dur":7392911, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309817665881, "dur":756, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1664309817666752, "dur":106, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1664309817666862, "dur":488, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1664309817667412, "dur":2453, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309817669865, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225326, "dur":92, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225418, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225443, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225449, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225463, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225465, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225475, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225478, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225488, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225511, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826225537, "dur":4834, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1664309817675175, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309817675176, "dur":10864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309817686040, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664309817686093, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309817686124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309818746432, "dur":296851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1664309819043326, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664309819043389, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819043424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819043460, "dur":263153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664309819306639, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1664309819306672, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819306699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819306704, "dur":239839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1664309819546565, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1664309819546597, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819546647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819547546, "dur":97482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1664309819645050, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664309819645086, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819645111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819645116, "dur":41270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1664309819686407, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1664309819686446, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819686475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819686481, "dur":132337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1664309819818840, "dur":26723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309819845564, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819845640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309819865288, "dur":223552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309820088863, "dur":54406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1664309820143270, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820143342, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820143354, "dur":395142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1664309820538518, "dur":78065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309820616584, "dur":24922, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820641516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820641531, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309820642828, "dur":70867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309820713696, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820713752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820713759, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309820714731, "dur":78360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309820793092, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820793146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820793152, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309820794472, "dur":85050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309820879523, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820879603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820879611, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309820880643, "dur":74857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309820955501, "dur":4495, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820960007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309820960017, "dur":9489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309820969528, "dur":63819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821033351, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821033447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821033455, "dur":7267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821040744, "dur":28860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821069605, "dur":17732, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821087349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821087357, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821088687, "dur":31137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821119825, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821119902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821119907, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821120754, "dur":58280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821179035, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821179087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821179094, "dur":8541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821187655, "dur":184095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821371752, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821371920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821371935, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821373087, "dur":1213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821374301, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821374348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821374354, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821375793, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821376089, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821376123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821376129, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821377505, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821377918, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821377965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821377972, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821378978, "dur":77341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821456320, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821456384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821456391, "dur":93188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821549612, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821549969, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821550041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821550051, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821551933, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821552412, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821552747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821552757, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821554983, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821555495, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821555553, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821555562, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821556448, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821556620, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821556657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821556663, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821557763, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821557990, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821558029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821558035, "dur":41729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821599787, "dur":52353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821652141, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821652205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821652211, "dur":43478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821695706, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821695999, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821696036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821696041, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821696924, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821697127, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821697162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821697167, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821698048, "dur":51971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821750020, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821750078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821750088, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821751106, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821751256, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821751285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821751289, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821752103, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821752306, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821752337, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821752346, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821753227, "dur":65908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821819137, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821819182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821819208, "dur":48016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821867239, "dur":64425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821931665, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821931720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821931727, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309821932598, "dur":49164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821981763, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821981806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821981819, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821982887, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821983141, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821983175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821983180, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821984376, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821984647, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821984681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309821984686, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309821985610, "dur":56488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822042099, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822042140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822042146, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822043347, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822043362, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822043390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822043395, "dur":32303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822075716, "dur":72460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822148177, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822148242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822148249, "dur":63521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822211804, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822212159, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822212229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822212240, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822214031, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822214420, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822214488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822214499, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822216179, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822216482, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822216535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822216540, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822217511, "dur":23035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822240547, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822240608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822240615, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822241597, "dur":93840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822335438, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822335505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822335513, "dur":46415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822381948, "dur":10888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822392837, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822392902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822392910, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822393918, "dur":102512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822496431, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822496503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822496511, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822497566, "dur":56426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822553994, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822554066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822554073, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822555062, "dur":78646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822633709, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822633778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822633811, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822635199, "dur":42436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822677636, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822677695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822677725, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822679412, "dur":62791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822742204, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822742259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822742265, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822743168, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822743324, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822743374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822743378, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822744301, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822744544, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822744580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822744585, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822745644, "dur":117191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822862836, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822862896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822862903, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822864461, "dur":69878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822934340, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822934396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822934403, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822935326, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822935505, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822935539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822935544, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309822936598, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822936770, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822936802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822936808, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822937738, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822937901, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822937935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309822937941, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309822938938, "dur":62478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823001417, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823001476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823001480, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823002835, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823003022, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823003059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823003064, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823004207, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823004435, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823004488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823004492, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823005757, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823005945, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823005978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823005984, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823007264, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823007634, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823007666, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823007670, "dur":39674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823047365, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823047566, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823047603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823047608, "dur":1147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823048773, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823048955, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823048994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823048999, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823050453, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823050609, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823050641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823050646, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823051772, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823052227, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823052263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823052269, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823053381, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823053540, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823053579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823053605, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823054397, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823054959, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823054996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823055002, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Mathematics.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823056059, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823056907, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823056948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823056955, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823058306, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823058322, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823058352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823058358, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823059168, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823059499, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823059531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823059535, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1664309823060422, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823060847, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823060883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823060889, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823062941, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823062958, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823062997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823063003, "dur":75689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823138718, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823138782, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823138827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823138834, "dur":62895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823201747, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823201762, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823201796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823201802, "dur":100951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823302768, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823303010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823303015, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823303986, "dur":14586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823318583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823332997, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1664309823333997, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":1, "ts":1664309823334017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823334022, "dur":12268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":1, "ts":1664309823346306, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1664309823346329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823346335, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1664309823347425, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/data.unity3d" }}
+,{ "pid":12345, "tid":1, "ts":1664309823347456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1664309823347463, "dur":43969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/data.unity3d" }}
+,{ "pid":12345, "tid":1, "ts":1664309823391451, "dur":2833855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309817672934, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309817672936, "dur":12990, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309817685945, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1664309817685947, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309817685985, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1664309817685987, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309817686027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309817686715, "dur":1045669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1664309818732390, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1664309818732476, "dur":12854, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309818745345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309818746238, "dur":531023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1664309819277307, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664309819277376, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309819277436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309819277449, "dur":243704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664309819521175, "dur":24976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664309819546152, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309819546222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309819546230, "dur":105377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1664309819651627, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664309819651666, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309819651697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309819651704, "dur":214808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1664309819866531, "dur":235351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820101883, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820101931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820101935, "dur":394171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820496125, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820496325, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820496366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820496590, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820497337, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820497564, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820497594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820497612, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820498619, "dur":79207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820577827, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820577911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820577918, "dur":64734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820642680, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820642922, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820643000, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820643070, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820644145, "dur":64701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820708847, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820709048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820709056, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820711030, "dur":79979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820791009, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820791068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820791075, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820792184, "dur":23087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820815272, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820815353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820815361, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820816425, "dur":66301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820882727, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820882800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820882808, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820883788, "dur":71087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820954877, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820954938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820954947, "dur":5739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820960723, "dur":4597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820965322, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820965606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820965614, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820966708, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820966937, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820966980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820966987, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309820967917, "dur":23188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820991106, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820991180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309820991188, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309820992418, "dur":109242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821101661, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821101730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821101737, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821102804, "dur":59832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821162637, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821162691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821162699, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821163936, "dur":93431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821257368, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821257434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821257441, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821258550, "dur":105459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821364010, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821364079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821364086, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821365106, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821365459, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821365519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821365526, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821367161, "dur":204044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821571206, "dur":27644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821598860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821598869, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821600422, "dur":113312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821713735, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821713807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821713814, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821714880, "dur":45248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821760130, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821760199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821760207, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821761588, "dur":109238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821870827, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821870880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821870886, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309821871755, "dur":49641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821921396, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821921448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821921454, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821922306, "dur":58790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821981097, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821981169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821981177, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821982380, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821982586, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821982622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821982627, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821983463, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821983644, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821983678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309821983683, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309821984526, "dur":56404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822040931, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822040993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822041000, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822042028, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822042218, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822042250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822042255, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822043272, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822043661, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822043696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822043701, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822044897, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822044915, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822044949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822044955, "dur":43661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822088634, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822088788, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822088822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822088828, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822089779, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822089961, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822089995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822090001, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822090801, "dur":64447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822155249, "dur":59291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822214552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822214563, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822216141, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822216386, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822216424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822216430, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822217755, "dur":76290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822294046, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822294118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822294126, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822295359, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822295577, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822295617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822295623, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822296713, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822296917, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822296955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822296962, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822297871, "dur":86589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822384461, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822384511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822384519, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822385852, "dur":65448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822451301, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822451365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822451372, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822452422, "dur":63275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822515698, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822515766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822515773, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822516725, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822517207, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822517243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822517247, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822518214, "dur":1296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822519511, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822519564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822519571, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822521079, "dur":34869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822555948, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822556013, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822556025, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822556894, "dur":67548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822624443, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822624512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822624519, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822625527, "dur":28305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822653833, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822653892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822653899, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822654896, "dur":52039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822706936, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822707004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822707010, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822707974, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822708152, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822708186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822708191, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822709115, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822709399, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822709432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822709437, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822710286, "dur":27789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822738076, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822738143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822738150, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822739153, "dur":196635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822935789, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822935833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822935838, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822936834, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822937089, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822937127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822937131, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822938047, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822938262, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822938299, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822938304, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822939147, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822939308, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822939347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822939353, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309822940109, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822940259, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822940290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309822940295, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309822941062, "dur":60207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823001270, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823001311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823001316, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823002818, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823003000, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823003036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823003040, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823004204, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823004376, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823004411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823004417, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823005796, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823005978, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823006013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823006017, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823007254, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823007467, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823007500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823007505, "dur":40780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823048300, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823048714, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823048755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823048760, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823049971, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823050131, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823050187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823050193, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823051483, "dur":164085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823215569, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823215639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823215647, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823216796, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823216811, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823216840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823216845, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823217882, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823217905, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823217935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823217940, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823220782, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823220798, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823220831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823220838, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823221788, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823221803, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823221831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823221844, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823222973, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823222988, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823223019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823223024, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823224243, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823224258, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823224291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823224297, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823225766, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823225790, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823225821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823225826, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823226738, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823226754, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823226783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823226787, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823227791, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823227806, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823227837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823227842, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823229977, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823230142, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823230245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823230251, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823231494, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823231511, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823231545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823231551, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823233371, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823233388, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823233426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823233434, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823234758, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823234775, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823234809, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823234819, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823236075, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823236092, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823236121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823236127, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823238675, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823238692, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823238744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823238750, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823240921, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823240936, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823240970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823240977, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823241991, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823242007, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823242034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823242039, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823243844, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823243860, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823243893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823243899, "dur":2987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823246904, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823246922, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823246960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823246966, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823248200, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823248219, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823248250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823248256, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823249324, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823249339, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823249368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823249394, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823250722, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823250746, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823250775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823250780, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823251870, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823251885, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823251912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823251917, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823255811, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823255828, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823255865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823255871, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823257280, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823257295, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823257326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823257331, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":2, "ts":1664309823258277, "dur":73312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823331590, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823331663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823331669, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1664309823332920, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1664309823333085, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823333124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823333326, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1664309823334101, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1664309823334119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823334123, "dur":4013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1664309823338160, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1664309823338185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823338193, "dur":13827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1664309823352046, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1664309823352261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1664309823352269, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1664309823353306, "dur":2871989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309817675240, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309817675241, "dur":10701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309817685945, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1664309817686016, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309817686054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819003891, "dur":302610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1664309819306524, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664309819306576, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819306616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819306670, "dur":240095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664309819546781, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664309819546815, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819546839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819547315, "dur":97124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1664309819644459, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664309819644501, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819644535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819644558, "dur":56759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1664309819701337, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1664309819701376, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819701404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309819701411, "dur":239202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1664309819940635, "dur":160990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664309820101626, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309820101686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1664309820101691, "dur":6123536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1664309826225257, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1664309826225260, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309817675035, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309817675037, "dur":10903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309817685945, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1664309817686021, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309817686078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309818746436, "dur":530896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1664309819277371, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664309819277432, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309819277501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309819305010, "dur":232170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1664309819537201, "dur":9111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1664309819546313, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309819546342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309819546349, "dur":319439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1664309819865809, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309819865852, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309819865877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309819865898, "dur":259904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309820125821, "dur":834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22.exe" }}
+,{ "pid":12345, "tid":4, "ts":1664309820126656, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820126713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820126718, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22.exe" }}
+,{ "pid":12345, "tid":4, "ts":1664309820128099, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1664309820128143, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820128184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820150999, "dur":422920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1664309820573943, "dur":93116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309820667061, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820667117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820667124, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309820667987, "dur":83377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309820751365, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820751427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820751434, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309820752843, "dur":89544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309820842388, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820842504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820842511, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309820844074, "dur":112133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309820956208, "dur":13953, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820970170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309820970202, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309820971458, "dur":62573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821034032, "dur":7373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821041414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821041422, "dur":44225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821085668, "dur":33714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821119383, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821119458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821119466, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821120443, "dur":34482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821154926, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821154999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821155007, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821156042, "dur":19432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821175475, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821175535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821175542, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821176645, "dur":57338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821233984, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821234039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821234047, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821235049, "dur":67594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821302644, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821302704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821302711, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821303821, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821303991, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821304031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821304037, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821304765, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821304949, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821304981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821304985, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821305717, "dur":91024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821396742, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821396819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821396826, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821398171, "dur":89805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821487977, "dur":60707, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821548701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821548715, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821551572, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821552186, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821552258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821552272, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821554742, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821555234, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821555343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821555353, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821556402, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821556736, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821556771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821556776, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821557875, "dur":32360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821590236, "dur":8613, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821598860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821598880, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821600309, "dur":53899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821654208, "dur":40855, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821695074, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821695087, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821698675, "dur":46980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821745656, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821745752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821745759, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821746726, "dur":71541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821818269, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821818338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821818345, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821819315, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821819509, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821819551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821819556, "dur":47663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309821867236, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821867446, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821867481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821867488, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821868285, "dur":52069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821920355, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821920420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821920426, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821921520, "dur":65876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821987397, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821987456, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309821987470, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309821988555, "dur":66454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822055010, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822055063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822055070, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822056023, "dur":47319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822103343, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822103396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822103403, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822104247, "dur":115683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822219931, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822219996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822220004, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822221440, "dur":73962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822295403, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822295451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822295458, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822296791, "dur":46490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822343282, "dur":37971, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822381265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822381274, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822384095, "dur":95701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822479797, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822479896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822479920, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822480911, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822481083, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822481118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822481124, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822482082, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822482270, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822482307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822482313, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822483213, "dur":66593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822549807, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822549872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822549879, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822550905, "dur":83350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822634256, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822634401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822634407, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822635401, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822635581, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822635615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822635621, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822636408, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822636618, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822636650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822636656, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822637442, "dur":38482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822675925, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822675984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822675991, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822676999, "dur":73864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822750864, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822750925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822750932, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822751879, "dur":111646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822863525, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822863567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822863572, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822864476, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822864676, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822864712, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822864717, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822865511, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822865815, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822865866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822865871, "dur":834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822866720, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822867152, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822867186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822867191, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822868130, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822868536, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822868570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822868576, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822869573, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822870194, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822870237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822870243, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822871366, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822871383, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822871418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822871424, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822872250, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Tutorials.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822872420, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822872451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822872456, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Tutorials.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822873210, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822873357, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822873407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822873412, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822874135, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822874347, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822874378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822874383, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822875199, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822875445, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822875477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822875483, "dur":32250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822907754, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822908103, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822908138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822908144, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822909030, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822909523, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822909558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822909563, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822910521, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822910680, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822910712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822910718, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309822911583, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822911754, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822911791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309822911857, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309822912893, "dur":88111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309823001005, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823001079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823001086, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309823002618, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823002831, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823002864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823002869, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823004438, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823004621, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823004656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823004660, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823005773, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823005958, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823005991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823005996, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823007241, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823007446, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823007483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823007489, "dur":39861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823047369, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823047560, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823047597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823047603, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823048678, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823049355, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823049390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823049395, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823050718, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823050880, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823050915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823050920, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823051916, "dur":95048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309823146965, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823147068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823147075, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309823148125, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823148141, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823148172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823148177, "dur":133000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823281194, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823281577, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823281623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823281629, "dur":20590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1664309823302239, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309823302492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823302533, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309823303643, "dur":5676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/Plugins/x86_64/lib_burst_generated.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309823309330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823332965, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/Plugins/x86_64/lib_burst_generated.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1664309823334104, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1664309823334122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823334126, "dur":8659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1664309823342810, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1664309823343151, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823343216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823343224, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1664309823344472, "dur":19010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Win/Bikunov_VU_Diploma22_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1664309823363484, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823363600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1664309823363606, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Win/Bikunov_VU_Diploma22_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1664309823364722, "dur":2860583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1664309826233437, "dur":5016, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1664309826309016, "dur": 2390, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1664309826259794, "dur": 51661, "ph": "X", "name": "Write chrome-trace events", "args": {} },
